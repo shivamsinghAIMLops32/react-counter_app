@@ -4,12 +4,15 @@ import "./App.css";
 function App() {
   const [count, setCount] = useState(0);
   return (
-    <>
-      <button onClick={()=>{setCount((count) => count+1)}}>increment</button>
+    
+      <>
+      <button onClick={()=>{setCount( count+1)}}>increment</button>
       <br />
-      <h3>count is {count}</h3>
+   
+        <h3>count is {count}</h3>
+      
       <br />
-      <button onClick={()=>{setCount((count)=>count -1)}}>decrement</button>
+      <button onClick={()=>{setCount(count -1)}}>decrement</button>
     </>
   );
 }
