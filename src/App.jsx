@@ -6,7 +6,7 @@ function App() {
   return (
     
       <>
-      <button onClick={()=>{setCount( count+1)}}>increment</button>
+      <button onClick={()=>setCount( count+1)}>increment</button>
       <br />
    
         <h3>count is {count}</h3>

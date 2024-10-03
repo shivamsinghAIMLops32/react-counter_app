@@ -12,5 +12,5 @@ Currently, two official plugins are available:
        npm create vite@lates
        
        npm install
-       npm run devt
+       npm run dev
    ```
