@@ -1,8 +1,8 @@
 import React from 'react'
 
-const CustomButton = ({count}) => {
+const CustomButton = (props) => {
   return (
-    <div><button > Counter {count}</button></div>
+    <div><button > Counter {props.count}</button></div>
   )
 }
 
